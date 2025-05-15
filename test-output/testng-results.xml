@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T13:42:55 IST" name="Default suite" finished-at="2025-05-15T13:43:09 IST" duration-ms="14398">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginTest3.loginTest()[pri:0, instance:com.ui.test.LoginTest3@f0c8a99]" name="loginTest" class="com.ui.test.LoginTest3"/>
+      </group> <!-- Sanity -->
+      <group name="e2e">
+        <method signature="LoginTest3.loginTest()[pri:0, instance:com.ui.test.LoginTest3@f0c8a99]" name="loginTest" class="com.ui.test.LoginTest3"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2025-05-15T13:42:55 IST" name="Default test" finished-at="2025-05-15T13:43:09 IST" duration-ms="14398">
+      <class name="com.ui.test.LoginTest3">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.ui.test.LoginTest3@f0c8a99]" started-at="2025-05-15T13:42:55 IST" name="browserSetup" description="Open the Browser and load the homepage" finished-at="2025-05-15T13:43:07 IST" duration-ms="11636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginTest()[pri:0, instance:com.ui.test.LoginTest3@f0c8a99]" started-at="2025-05-15T13:43:07 IST" name="loginTest" description="Verifies to login with valid login credentials" finished-at="2025-05-15T13:43:09 IST" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ui.test.LoginTest3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
